@@ -1,5 +1,5 @@
-# this project assumes you feed it the audio file with name sample111.wav 16 bit pcm audio ...feel free for best possible results
-# packages
+# this project assumes you feed it the audio file with name "sample.wav" 16 bit pcm audiofor best possible results
+			# packages
 # numpy for better datastructures wave for wav processing and wavf for writing wave file
 import wave
 import numpy as np
@@ -123,9 +123,7 @@ def decode(inputtedfilenamehere):
 
 
 
-
-
-***********************decoding success
+	***********************decoding success
 
 
 
@@ -133,15 +131,15 @@ def decode(inputtedfilenamehere):
 
 
 
-""")
+	""")
     print("""
     
     
-    """+
+    	"""+
           answertoret+"""
           
-          
-    """)
+    	      
+    	""")
     starter()
 
 
